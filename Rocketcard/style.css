@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0E1218;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.container{
+    border: 1px solid #FFFFFF;
+}
+.head{
+    display: flex;
+    gap: 10px;
+    
+}
+.head p{
+    align-self: center;
+    font-size: 24px;
+}
+.logo{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    border: 1px solid gray;
+    padding: 0 3.7px;
+    border-radius: 50%;
+}
+.logo svg{
+    margin: auto auto;
+}
+main{
+    position: relative ;
+}
+.items{
+    display: flex;
+    gap: 10px
+}
+.info-profil{
+    position: absolute;
+    z-index: 1;
+    width: fit-content;
+    padding: 10px;
+    background-color: skyblue;
+    bottom: 0;
+}
