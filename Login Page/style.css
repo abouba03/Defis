@@ -45,6 +45,7 @@ a{
     font-size: 14px;
 }
 .login-box{
+    padding: 30px;
     background-color: #24221F;
     width: fit-content;
     height: 580px;
